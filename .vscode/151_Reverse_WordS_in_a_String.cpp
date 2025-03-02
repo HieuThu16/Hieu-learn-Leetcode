@@ -40,7 +40,7 @@ string reserseWords2(string s){ // Cách 2
          }
    }
    return result;
-}
+}     
 
 int main() {
     string s = "  Hello   world! nef  ";
