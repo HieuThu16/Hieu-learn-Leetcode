@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/ASUS Vivobook/Desktop/Hieu-learn-Leetcode/.vscode/code trên visual/206_reserve_link_list_nhieu_cach",
-      "program": "c:/Users/ASUS Vivobook/Desktop/Hieu-learn-Leetcode/.vscode/code trên visual/206_reserve_link_list_nhieu_cach/build/Debug/outDebug",
+      "cwd": "c:/Users/ASUS Vivobook/Desktop/Hieu-learn-Leetcode/.vscode/code trên visual",
+      "program": "c:/Users/ASUS Vivobook/Desktop/Hieu-learn-Leetcode/.vscode/code trên visual/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
