@@ -10,19 +10,21 @@ struct ListNode {
 
 // Hàm nhóm các node lẻ và chẵn
 ListNode* oddEvenList(ListNode* head) {
-    if(!head || head->next) return head;
-    ListNode* odd = head ;
-    ListNode* even = head ->next;
-    ListNode* evenHead = even ;
-    while(even && even->next){
+    if (!head || !head->next) return head;
+    
+    ListNode* odd = head;
+    ListNode* even = head->next;
+    ListNode* evenHead = even;
+    
+    while (even && even->next) {
         odd->next = even->next;
-        odd=odd->next ;
-        even->next = odd->next ;
-        even = even->next ;
-
+        odd = odd->next;
+        even->next = odd->next;
+        even = even->next;
     }
+    
     odd->next = evenHead;
-    return head; 
+    return head;
 }
 
 // Hàm in danh sách liên kết
